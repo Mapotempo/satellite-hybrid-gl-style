@@ -38,21 +38,49 @@
       "url": "mbtiles://landsat-hasta-611mpx.mbtiles",
       "tileSize": 256
     },
-    "satellite-9-14": {
+    "metropole-9-14": {
       "type": "raster",
       "url": "mbtiles://tiles-LAMB93.mbtiles",
       "tileSize": 256
     },
-    "satellite-15": {
+    "metropole-15": {
       "type": "raster",
       "url": "mbtiles://tiles15-LAMB93.mbtiles",
       "tileSize": 256
     },
-    "satellite-16-18": {
+    "saint-pierre-et-miquelon-9-15": {
       "type": "raster",
-      "tiles": [
-        "http://localhost:9515/?map=/srv/fred/ortho/bd50/map.map&mode=tile&tilemode=gmap&tile={x}+{y}+{z}"
-      ],
+      "url": "mbtiles://tiles-RGSPM06U21.mbtiles",
+      "tileSize": 256
+    },
+    "guadeloupe-martinique-saint-martin-9-15": {
+      "type": "raster",
+      "url": "mbtiles://tiles-RGAF09UTM20.mbtiles",
+      "tileSize": 256
+    },
+    "mayotte-9-16": {
+      "type": "raster",
+      "url": "mbtiles://tiles-RGM04UTM38S.mbtiles",
+      "tileSize": 256
+    },
+    "la_reunion-9-16": {
+      "type": "raster",
+      "url": "mbtiles://tiles-RGR92UTM40S.mbtiles",
+      "tileSize": 256
+    },
+    "saint-barthelemy-9-16": {
+      "type": "raster",
+      "url": "mbtiles://tiles-UTM20W84GUAD.mbtiles",
+      "tileSize": 256
+    },
+    "guyane-9-16": {
+      "type": "raster",
+      "url": "mbtiles://tiles-UTM22RGFG95.mbtiles",
+      "tileSize": 256
+    },
+    "wallis-et-futuna-9-16": {
+      "type": "raster",
+      "url": "mbtiles://tiles-UTM01SW84.mbtiles",
       "tileSize": 256
     }
   },
@@ -67,25 +95,59 @@
       "maxzoom": 9
     },
     {
-      "id": "satellite-9-14",
+      "id": "metropole-9-14",
       "type": "raster",
-      "source": "satellite-9-14",
+      "source": "metropole-9-14",
       "minzoom": 9,
-      "maxzoom": 13
+      "maxzoom": 15
     },
     {
-      "id": "satellite-15",
+      "id": "metropole-15",
       "type": "raster",
-      "source": "satellite-15",
-      "minzoom": 14,
-      "maxzoom": 14
+      "source": "metropole-15",
+      "minzoom": 15
     },
     {
-      "id": "satellite-16-18",
+      "id": "saint-pierre-et-miquelon-9-15",
       "type": "raster",
-      "source": "satellite-15",
-      "minzoom": 15,
-      "maxzoom": 22
+      "source": "saint-pierre-et-miquelon-9-15",
+      "minzoom": 9
+    },
+    {
+      "id": "guadeloupe-martinique-saint-martin-9-15",
+      "type": "raster",
+      "source": "guadeloupe-martinique-saint-martin-9-15",
+      "minzoom": 9
+    },
+    {
+      "id": "mayotte-9-16",
+      "type": "raster",
+      "source": "mayotte-9-16",
+      "minzoom": 9
+    },
+    {
+      "id": "la_reunion-9-16",
+      "type": "raster",
+      "source": "la_reunion-9-16",
+      "minzoom": 9
+    },
+    {
+      "id": "saint-barthelemy-9-16",
+      "type": "raster",
+      "source": "saint-barthelemy-9-16",
+      "minzoom": 9
+    },
+    {
+      "id": "guyane-9-16",
+      "type": "raster",
+      "source": "guyane-9-16",
+      "minzoom": 9
+    },
+    {
+      "id": "wallis-et-futuna-9-16",
+      "type": "raster",
+      "source": "wallis-et-futuna-9-16",
+      "minzoom": 9
     },
     {
       "id": "waterway",
