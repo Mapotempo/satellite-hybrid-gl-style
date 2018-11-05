@@ -85,7 +85,7 @@
     }
   },
   "sprite": "https://openmaptiles.github.io/dark-matter-gl-style/sprite",
-  "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "glyphs": "http://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "landsat",
@@ -183,8 +183,7 @@
         "text-rotation-alignment": "map",
         "symbol-spacing": 500,
         "text-font": [
-          "Metropolis Medium Italic",
-          "Noto Sans Italic"
+          "Metropolis Medium Italic"
         ],
         "text-size": 12
       },
@@ -949,8 +948,7 @@
         "text-transform": "uppercase",
         "symbol-spacing": 350,
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -994,8 +992,7 @@
         "text-size": 10,
         "symbol-spacing": 350,
         "text-font": [
-          "Metropolis Light",
-          "Noto Sans Regular"
+          "Metropolis Light"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -1131,8 +1128,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1176,8 +1172,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1221,8 +1216,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1281,8 +1275,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1358,8 +1351,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1435,8 +1427,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1494,8 +1485,7 @@
         "visibility": "visible",
         "text-field": "{name:latin}\n{name:nonlatin}",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 10
@@ -1537,8 +1527,7 @@
         "visibility": "visible",
         "text-field": "{name:latin}",
         "text-font": [
-          "Metropolis Light Italic",
-          "Noto Sans Italic"
+          "Metropolis Light Italic"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1596,8 +1585,7 @@
         "visibility": "visible",
         "text-field": "{name:latin}",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1655,8 +1643,7 @@
         "visibility": "visible",
         "text-field": "{name:latin}",
         "text-font": [
-          "Metropolis Regular",
-          "Noto Sans Regular"
+          "Metropolis Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
